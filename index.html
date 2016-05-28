@@ -4,6 +4,14 @@
         <title>AirIndia WebAlert</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!--
+            custom fonts included below:
+            Rubik for the mainpage intro
+            Alegreya Sans for the general web-app font
+        -->
+        <link href='https://fonts.googleapis.com/css?family=Rubik:900italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
         <style>
             body
             {
@@ -50,12 +58,51 @@
                 background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/42/Love_Heart_SVG.svg);
                 background-size: cover;
             }
+            #intro
+            {
+                padding-top: 1em;
+                padding-bottom: 2em;
+            }
+            #intro p
+            {
+                font-family: 'Rubik', sans-serif;
+                font-size: 1.5em;
+                text-align: center;
+                color: #C4082E;
+            }
+            form
+            {
+                text-align: center;
+            }
+            /*input
+            {
+                height: 2em;
+                margin: 2em;
+                width: 4em;
+            }*/
         </style>
     </head>
     <body>
         <section id="container">
             <header id="logo">
             </header>
+            <section id="intro">
+                <p>
+                    Welcome to AirIndia WebAlert Login Page
+                </p>
+                <div style="font-family: 'Alegreya Sans', sans-serif; color: black; font-size: 1em; text-align: center;">
+                    Please enter your login credentials below:
+                </div>
+            </section>
+            <!--<section id="form">
+                <form action="" method="post">
+                    <input type="text" name="username" required autofocus placeholder="Type in your username here">
+                    <br>
+                    <input type="password" name="password" required placeholder="Type in your password here">
+                    <br>
+                    <input type="submit" value="Log in">
+                </form>
+            </section>-->
         </section>
         <footer>
             Made with <span id="love_footer_image"></span> by Shubham Mehta (Intern | Summer 2016) <a href="https://in.linkedin.com/in/shubham-mehta-b15a54a0" title="Shubham Mehta | LinkedIn">LinkedIn</a> <a href="https://www.youtube.com/user/MultiGothic2" title="Shubham Mehta | YouTube">YouTube</a>
