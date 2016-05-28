@@ -95,6 +95,16 @@
                 border-color: #C4082E;
                 box-shadow: 0 0 10px #C4082E;
             }
+            input[type="submit"]
+            {
+                padding: 1em 2em;
+                background: #C4082E;
+                color: snow;
+                font-family: 'Alegreya Sans', sans-serif;
+                font-size: 1.1em;
+                border: 0.3em inset #ea0a37;
+                cursor: pointer;
+            }
         </style>
     </head>
     <body>
@@ -111,9 +121,9 @@
             </section>
             <section id="form">
                 <form action="" method="post">
-                    <input class="data glowing-border"type="text" name="username" required autofocus placeholder="Type in your username here">
+                    <input class="data glowing-border"type="text" name="username" required autofocus placeholder="Username">
                     <br>
-                    <input class="data glowing-border" type="password" name="password" required placeholder="Type in your password here">
+                    <input class="data glowing-border" type="password" name="password" required placeholder="Password">
                     <br>
                     <input type="submit" value="Log in">
                 </form>
